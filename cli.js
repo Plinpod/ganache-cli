@@ -115,7 +115,7 @@ var options = {
   mnemonic: argv.m || argv.mnemonic,
   total_accounts: argv.a || argv.accounts,
   default_balance_ether: argv.e || argv.defaultBalanceEther,
-  blockTime: argv.b || argv.blockTime,
+  blocktime: argv.b || argv.blockTime,
   gasPrice: argv.g || argv.gasPrice,
   gasLimit: argv.l || argv.gasLimit,
   accounts: parseAccounts(argv.account),
